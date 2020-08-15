@@ -1,5 +1,4 @@
 # Game "rock, paper, scissors"
-
 import random
 
 
