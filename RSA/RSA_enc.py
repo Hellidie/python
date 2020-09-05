@@ -20,7 +20,7 @@ dict_closed = {                     # закрытый ключ
 
 print(dict_open, dict_closed)
 
-flag = bytes("flag{i_love_tk_ctf}", encoding='utf-8')
+flag = bytes("flag", encoding='utf-8')
 message = bytes_to_long(flag)
 c = (message ** e) % n              # шифруем сообщение
 print(c)
