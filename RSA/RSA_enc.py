@@ -25,4 +25,4 @@ message = bytes_to_long(flag)
 c = (message ** e) % n              # шифруем сообщение
 print(c)
 
-# формула для расшифровки: message = c ** d % n
+
